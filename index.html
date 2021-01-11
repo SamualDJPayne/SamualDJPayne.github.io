@@ -10,34 +10,64 @@
   <meta name="author" content="Jodie Carpenter">
 
   <title>Jodie Rose Carpenter</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <link rel="icon" href="https://cdn1.iconfinder.com/data/icons/food-volume-ii/64/turnip-512.png">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   <script type="text/javascript">
     $('#carousel-example-generic').carousel();
   </script>
+  <style>
+    .nav-link {
+  padding: inherit;
+  font-size: inherit;
+  width: inherit;
+  text-align: center;
+  text-decoration: none;
+  margin: inherit;
+}
+  </style>
 </head>
 
 <body>
-  <nav class="navbar navbar-inverse navbar-fixed-top">
-   <div class="container">
-     <div id="navbar" class="navbar-collapse collapse">
-       <ul class="nav navbar-nav navbar-left">
-         <li class="active"><a href="#">Home</a></li>
-         <li><a href="#about">About</a></li>
-         <li><a href="#contact">Contact</a></li>    
-       </ul>
-       <ul class="nav navbar-nav navbar-right">
-        <li class="nav-item"><a class="nav-link px-2" href="#"><span class="fa fa-facebook"></span></a></li>
-        <li class="nav-item"><a class="nav-link px-2" href="#"><span class="fa fa-twitter"></span></a></li>
-        <li class="nav-item"><a class="nav-link px-2" href="#"><span class="fa fa-instagram"></span></a></li>
-        <li class="nav-item"><a class="nav-link px-2" href="#"><span class="fa fa-linkedin"></span></a></li> 
-       </ul>
-     </div><!--/.nav-collapse -->
-  </div>
-</nav>
+  <nav class="navbar navbar-default navbar-inverse" role="navigation">
+    <div class="container-fluid" id="navfluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigationbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Jodie Rose Carpenter</a>
+      </div>
+      <div class="collapse navbar-collapse" id="navigationbar">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="nav-item">
+            <a class="nav-link px-2" style="background: #3B5998; color: white;" href="https://facebook.com/profile.php?id=1261915722">
+              <span class="fa fa-facebook"></span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link px-2" style="background: #55ACEE; color: white;" href="https://twitter.com/jodie_rose14">
+              <span class="fa fa-twitter"></span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link px-2" style="background: #125688; color: white;" href="https://www.instagram.com/jodierose14">
+              <span class="fa fa-instagram"></span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link px-2" style="background: #007bb5; color: white;" href="https://www.linkedin.com/in/jodie-carpenter/">
+              <span class="fa fa-linkedin"></span>
+            </a>
+          </li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
   <div id="carousel-example-generic">
     <div class="carousel slide">
       <!-- Indicators -->
@@ -50,7 +80,7 @@
       <!-- Wrapper for slides -->
       <div class="carousel-inner">
         <div class="item active">
-          <img src="http://placehold.it/1200x480" alt="Slide 1" />
+          <img src="http://placehold.it/1920x480" alt="Slide 1" />
           <div class="carousel-caption">
             <h1>Slide 1</h1>
             <p>Slide 1 Description</p>
@@ -58,7 +88,7 @@
         </div>
 
         <div class="item">
-          <img src="http://placehold.it/1200x480" alt="Slide 2" />
+          <img src="http://placehold.it/1920x480" alt="Slide 2" />
           <div class="carousel-caption">
             <h1>Slide 2</h1>
             <p>Slide to Description</p>
@@ -66,7 +96,7 @@
         </div>
 
         <div class="item">
-          <img src="http://placehold.it/1200x480" alt="Slide 3" />
+          <img src="http://placehold.it/1920x480" alt="Slide 3" />
           <div class="carousel-caption">
             <h1>Slide 3</h1>
             <p>Slide 3 Description</p>
